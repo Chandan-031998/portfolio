@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Chandan-031998.github.io/{portfolio}",
+  "homepage": "https://chandan-031998.github.io/portfolio/",
   "name": "chandan-g-portfolio",
   "private": true,
   "version": "1.0.0",
@@ -9,7 +9,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",

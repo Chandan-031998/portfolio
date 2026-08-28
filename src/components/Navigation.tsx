@@ -16,7 +16,7 @@ export function Navigation() {
   return (
     <header className={`editorial-nav ${scrolled ? 'compact' : ''}`}>
       <a className="nav-identity" href="#home" onClick={close} aria-label="Chandan Girish home">
-        <img src="/profile-photo.png" alt="" />
+        <img src={`${import.meta.env.BASE_URL}profile-photo.png`} alt="Chandan Girish" />
         <span>CHANDAN<br />GIRISH</span>
       </a>
       <nav className={open ? 'nav-menu open' : 'nav-menu'} aria-label="Primary navigation">

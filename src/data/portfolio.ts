@@ -1,3 +1,5 @@
+const asset = (path: string) => `${import.meta.env.BASE_URL}${path}`
+
 export type Project = {
   title: string
   shortTitle: string
@@ -18,49 +20,49 @@ export const projects: Project[] = [
     category: 'Software / ERP / Web', year: '2026', number: '01', layout: 'left',
     description: 'A technology company platform presenting software, ERP, AI, training and digital product services.',
     details: ['Responsive React interfaces', 'Reusable product architecture', 'Production-focused delivery'],
-    tech: ['React', 'TypeScript', 'Responsive UI'], screenshot: '/projects/vertex-software.jpg',
+    tech: ['React', 'TypeScript', 'Responsive UI'], screenshot: asset('projects/vertex-software.jpg'),
   },
   {
     title: 'Rokon Al Shiuokh', shortTitle: 'Rokon', url: 'https://rokonalshiuokh.com/',
     category: 'E-commerce / Mobile', year: '2025', number: '02', layout: 'right',
     description: 'An Arabic-first commerce ecosystem spanning a responsive storefront, Android APK and native-quality iOS experience.',
     details: ['Flutter mobile applications', 'Flask API services', 'AWS production infrastructure'],
-    tech: ['Flutter', 'Flask', 'AWS', 'Android', 'iOS'], screenshot: '/projects/rokon-al-shiuokh.jpg',
+    tech: ['Flutter', 'Flask', 'AWS', 'Android', 'iOS'], screenshot: asset('projects/rokon-al-shiuokh.jpg'),
   },
   {
     title: 'Fabpodd', shortTitle: 'Fabpodd', url: 'https://fabpodd.com/',
     category: 'Commerce / Customisation', year: '2025', number: '03', layout: 'wide',
     description: 'A print-on-demand commerce experience that makes custom apparel and gifting feel clear, modern and approachable.',
     details: ['Reusable commerce UI', 'Typed frontend logic', 'Cross-device experience'],
-    tech: ['React', 'TypeScript', 'Commerce'], screenshot: '/projects/fabpodd.jpg',
+    tech: ['React', 'TypeScript', 'Commerce'], screenshot: asset('projects/fabpodd.jpg'),
   },
   {
     title: 'Mysuru Bricks', shortTitle: 'Mysuru Bricks', url: 'https://mysurubricks.com/',
     category: 'Real Estate / Discovery', year: '2025', number: '04', layout: 'offset',
     description: 'A focused property discovery platform connecting buyers with relevant developments across Mysuru.',
     details: ['Property-oriented interfaces', 'Clear listing hierarchy', 'Responsive discovery flow'],
-    tech: ['React', 'TypeScript', 'Responsive Design'], screenshot: '/projects/mysuru-bricks.jpg',
+    tech: ['React', 'TypeScript', 'Responsive Design'], screenshot: asset('projects/mysuru-bricks.jpg'),
   },
   {
     title: 'True Teachers NEET Academy', shortTitle: 'True Teachers', url: 'https://trueteachersneetacademy.com/',
     category: 'Education / Admissions', year: '2026', number: '05', layout: 'left',
     description: 'An admissions-led education website helping students and parents understand programs, campus life and outcomes.',
     details: ['Education content system', 'Mobile-first journeys', 'Clear admissions hierarchy'],
-    tech: ['React', 'TypeScript', 'Mobile-first UI'], screenshot: '/projects/true-teachers.jpg',
+    tech: ['React', 'TypeScript', 'Mobile-first UI'], screenshot: asset('projects/true-teachers.jpg'),
   },
   {
     title: 'Coral Bridge Global', shortTitle: 'Coral Bridge', url: 'https://coralbridgeglobal.com/',
     category: 'Global Trade / Supply Chain', year: '2026', number: '06', layout: 'right',
     description: 'An editorial corporate presence communicating international trade, sourcing and supply-chain capability.',
     details: ['Corporate frontend', 'Service storytelling', 'Global market positioning'],
-    tech: ['React', 'TypeScript', 'Corporate UI'], screenshot: '/projects/coral-bridge-global.jpg',
+    tech: ['React', 'TypeScript', 'Corporate UI'], screenshot: asset('projects/coral-bridge-global.jpg'),
   },
   {
     title: 'Fluidmech Solutions', shortTitle: 'Fluidmech', url: 'https://fluidmech.in/',
     category: 'Engineering / Enterprise', year: '2026', number: '07', layout: 'wide',
     description: 'A precise engineering platform translating complex technical capabilities into a clear enterprise story.',
     details: ['Technical service pages', 'Enterprise information design', 'Performance-led frontend'],
-    tech: ['React', 'TypeScript', 'Web Development'], screenshot: '/projects/fluidmech-solutions.jpg',
+    tech: ['React', 'TypeScript', 'Web Development'], screenshot: asset('projects/fluidmech-solutions.jpg'),
   },
 ]
 
